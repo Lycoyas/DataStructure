@@ -7,5 +7,6 @@ public class GisTest {
         System.out.println("hello git!");
         System.out.println("git 2");
         System.out.println("git 3");
+        System.out.println("git 4");
     }
 }
