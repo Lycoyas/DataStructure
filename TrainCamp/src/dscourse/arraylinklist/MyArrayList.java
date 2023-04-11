@@ -43,7 +43,7 @@ public class MyArrayList<E> {
     }
 
     /******删******/
-    public E removeLast(int index) {
+    public E removeLast() {
         if(isEmpty()){
             throw new NoSuchElementException();
         }
@@ -56,6 +56,8 @@ public class MyArrayList<E> {
         size--;
         return deletedVal;
     }
+
+
 
     public E remove(int index) {
         checkElementIndex(index);
